@@ -17,4 +17,5 @@ Try running the following commands:
 
 https://github.com/BrSousaRi/dummu_tbt/issues/2#issue-2833814768
 
+![image](https://github.com/user-attachments/assets/8cc794d1-18de-4fb4-ada9-5f5d2bfc9994)
 
