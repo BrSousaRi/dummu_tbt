@@ -15,4 +15,6 @@ Try running the following commands:
 - Tratamento de dados seguindo o tratamento das 3 camandas, bronze, silver e gold
 - Foi usando para salvar o dados o bigquery da googlecloud, mas pode ser usado qualquer banco de dados ou qulquer outro datalake
 
+https://github.com/BrSousaRi/dummu_tbt/issues/2#issue-2833814768
+
 
