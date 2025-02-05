@@ -1,15 +1,18 @@
-Welcome to your new dbt project!
+Projeto de criação da dim_municios_ibge usando dbt!
 
-### Using the starter project
+### usando projeto inicial
 
 Try running the following commands:
+
 - dbt run
 - dbt test
-
+- dbt run --full-refresh
 
 ### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [dbt community](https://getdbt.com/community) to learn from other analytics engineers
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+
+- Base de dados [api usada](https://servicodados.ibge.gov.br/api/v1/localidades/municipios)
+- Foi feito um tratamento da camada silver e aplicado uma regra de negocio simples na gold
+- Tratamento de dados seguindo o tratamento das 3 camandas, bronze, silver e gold
+- Foi usando para salvar o dados o bigquery da googlecloud, mas pode ser usado qualquer banco de dados ou qulquer outro datalake
+
+
