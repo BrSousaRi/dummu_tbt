@@ -1,0 +1,20 @@
+
+version: 2
+
+models:
+    - name: 01_bronze_municios_ibge
+      description: "mesoregiao br"
+      columns:
+          - name: nm_municipio
+            description: "The primary key for this table"
+            tests:
+                - unique
+                - not_null
+
+    - name: 02_silver_municios_ibge
+      description: "A starter dbt model"
+      columns:
+          - name: nm_uf
+            description: "abrevição do estado uf"
+            tests:
+                - not_null
